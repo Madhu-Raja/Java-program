@@ -14,3 +14,6 @@ public class two extends one{
 }
 output
 9.8
+
+
+
