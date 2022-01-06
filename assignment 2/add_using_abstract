@@ -1,0 +1,15 @@
+abstract class assal{
+   abstract void add_tion();
+}
+public class summationusingabstract extends assal{
+    public void add_tion(){
+        float a=00.045645653f;
+        float b=0.00222f;
+        System.out.println(a+b);
+    }
+    public static void main(String args[])
+    {
+        summationusingabstract o=new summationusingabstract();
+        o.add_tion();
+    }
+}
