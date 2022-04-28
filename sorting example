@@ -1,0 +1,20 @@
+import java.util.Arrays;
+
+public class sortingexample {
+
+	public static void main(String[] args) {
+      int[] my_array= {22,43,29,10,26};
+      System.out.println("Original numeric array");
+      Arrays.sort(my_array);
+      System.out.println("Sorted array :" +Arrays.toString(my_array));
+      
+      
+      
+      
+	}
+
+}
+
+output:
+Original numeric array[22, 43, 29, 10, 26]
+Sorted array :[10, 22, 26, 29, 43]
