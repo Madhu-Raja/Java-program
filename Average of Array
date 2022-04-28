@@ -1,0 +1,23 @@
+import java.util.Arrays;
+
+public class AverageOfArray {
+
+	public static void main(String[] args) {
+int[] my_array1= { 10,23,32,42,15};
+int sum=0;
+ for (int i=0 ;i < my_array1.length; i++) {
+	 sum=sum+my_array1[i];
+	 
+	
+}
+ System.out.println("Given array"+ Arrays.toString(my_array1));
+ double avg=sum/ my_array1.length;
+ System.out.println("Average of the array:"+ avg);
+ 
+
+	}
+
+}
+Output:
+Given array[10, 23, 32, 42, 15]
+Average of the array:24.0
