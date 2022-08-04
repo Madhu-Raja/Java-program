@@ -1,0 +1,27 @@
+import java.util.Scanner;
+import java.util.*;
+
+public class PalindromeOfStack {
+	public static void main(String args[]) {
+		Stack stack1=new Stack();
+		System.out.println("Enter the string");
+		Scanner in=new Scanner(System.in);
+		String s= in .nextLine();
+		for (int i=0;i<s.length();i++) {
+			stack1.push(s.charAt(i));
+			
+		}
+	 String reversestring="";
+	 while(!stack1.isEmpty()) {
+		 reversestring=reversestring+stack1.pop();
+		 
+		 }
+if (s.equals(reversestring))
+	 System.out.println("True");
+ else
+	 System.out.println("False");
+		
+		
+	}
+
+}
