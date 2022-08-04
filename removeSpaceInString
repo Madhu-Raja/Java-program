@@ -1,0 +1,17 @@
+import java.util.*;
+import java.util.Scanner;
+
+public class removeSpaceInString {
+	public static void main(String args[]) {
+		System.out.println("Enter the string");
+		Scanner in=new Scanner(System.in);
+		String str= in.nextLine();
+		 str = str.replaceAll("\\s+", "");
+
+		    System.out.println("String after white spaces are removed:" + str);
+		
+	}
+   
+   
+}
+
